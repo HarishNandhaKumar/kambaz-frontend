@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+} 
+
+body * {
+    font-family: Arial,
+    Helvetica, sans-serif;
+} 
+
+@media (min-width: 768px) {
+    #wd-kambaz .wd-main-content-offset {
+        padding-left: 140px !important;
+    }
+}
+
+.list-group.wd > .list-group-item.active {
+    color: black;
+    background-color: white;
+    border-left: 3px solid black !important;
+}
+
+.btn-secondary {
+    --bs-btn-color: #000 !important;
+    --bs-btn-bg: #c7cdd1 !important;
+    --bs-btn-border-color: #c7cdd1 !important;
+    --bs-btn-hover-color: #fff !important;
+}
+
+.bg-secondary {
+    --bs-secondary-rgb: 199, 205, 209;
+}
+
+.list-group-item {
+    --bs-list-group-border-color: gray;
+}
+
+.wd-lesson {
+    border-left: 3px solid green !important;
+}
+
+.text-underline-dotted {
+    text-decoration: underline dotted red;
+}
+
+input[type="datetime-local"] {
+    background: white;
+    position: relative;
+}
+
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+    background-color: #f0f0f0;
+    border-left: 1px solid #dee2e6;
+    padding: 8px 12px;
+    margin-right: -12px;
+    cursor: pointer;
+}
