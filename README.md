@@ -1,5 +1,7 @@
 # Kambaz Frontend
 
+[![CI](https://github.com/HarishNandhaKumar/kambaz-next-js/actions/workflows/ci.yml/badge.svg)](https://github.com/HarishNandhaKumar/kambaz-next-js/actions/workflows/ci.yml)
+
 Next.js 15 + TypeScript frontend for the Kambaz LMS — an LMS clone with courses, modules, assignments, and a full quiz authoring + taking experience. Talks to the [Kambaz backend](https://github.com/HarishNandhaKumar/kambaz-backend) via session-based auth.
 
 ## Stack
